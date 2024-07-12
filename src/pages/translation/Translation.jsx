@@ -2,7 +2,8 @@ import React from 'react'
 
 function Translation() {
   return (
-    <div>Translation</div>
+    <div>under development
+    </div>
   )
 }
 

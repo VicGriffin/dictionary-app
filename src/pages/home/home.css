@@ -1,0 +1,19 @@
+.home-section{
+    background-color: #9290C3;
+    display: grid;
+    justify-content: center;
+    gap: 1.2rem;
+}
+.search-section {
+    gap: 1rem;
+}
+.search-section input{
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 10px;
+}
+.search-section button{
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 15px;
+}
