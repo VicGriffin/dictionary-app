@@ -1,0 +1,55 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #535C91;
+    padding: 20px 0; 
+}
+
+header .logo {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; 
+}
+
+.logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.img-logo {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.menu {
+    display: flex;
+    justify-content: center; 
+    width: 100%; 
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: 500;
+    font-size: larger;
+    line-height: 1.5;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0; 
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.menu a:hover {
+    color: #646cffaa;
+    text-decoration: underline;
+}
